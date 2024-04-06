@@ -106,3 +106,28 @@ h1{
     max-width: 50%; /* Maximum width for the image */
     margin-right: 20px; /* Space between the image and the text */
 }
+
+.services-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px
+}
+
+.testimonials-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-evenly; /* Distribute space around items */
+    padding: 20px; /* Padding around the content area */
+}
